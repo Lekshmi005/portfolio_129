@@ -1,0 +1,37 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Georgia', serif;
+  background-color: #b0aa44;
+  text-align: center;
+  color: #7b2f2f;
+}
+
+h1 {
+  font-size: 2.5em;
+  margin-top: 40px;
+  color: #7b2f2f;
+}
+
+.frame {
+    background: url('file:///C:/Users/leksh/OneDrive/Pictures/onam-festival-background-template-free-vector.jpg') no-repeat center center;
+    background-size: contain;
+    width: 600px;
+    height: 600px;
+    margin: 30px auto;
+    position: relative;
+}
+
+
+.text-box {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 40%; /* Reduce width so text fits within the circle */
+    text-align: center;
+    font-size: 0.88em;
+    line-height: 1.6em;
+    color: #6e1e1e;
+    word-wrap: break-word;
+}
